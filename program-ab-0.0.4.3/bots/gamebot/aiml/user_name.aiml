@@ -1,0 +1,105 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding ="UTF-8"?>
+  
+   <category>
+      <pattern>who are you</pattern>
+         <template>
+            <think><set name = "topic">username</set></think>
+            My name is GameBot. what is your name?
+         </template>
+   </category>
+   
+   <category>
+      <pattern>_ your name</pattern>
+         <template>
+         `  <srai>who are you</srai>
+         </template>
+   </category>
+
+   <category>
+      <pattern>what are you called</pattern>
+         <template>
+            <srai>who are you</srai>
+         </template>
+   </category>
+   
+      <category>
+      <pattern>what should I call you</pattern>
+         <template>
+            <srai>who are you</srai>
+         </template>
+   </category>
+   
+      <category>
+      <pattern>what can I call you</pattern>
+         <template>
+            <srai>who are you</srai>
+         </template>
+   </category>
+   
+      <category>
+      <pattern>_ you have a name</pattern>
+         <template>
+            <srai>who are you</srai>
+         </template>
+   </category>
+   
+   <topic name = "username">
+      <category>
+         <pattern>my name is *</pattern>
+         <that>MY NAME IS GAMEBOOT WHAT IS YOUR NAME</that>
+         <template>
+            Hello <set name = "username"><star/></set>. Nice to meet you!
+         </template>
+      </category>
+   
+      <category>
+         <pattern>my names *</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+   
+      <category>
+         <pattern>my name's *</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>name's *</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>names *</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>_ names *</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>_ name's *</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>*</pattern>
+         <template>
+            <srai>my name is <star/></srai>
+         </template>
+      </category>
+   </topic>
+</aiml>

@@ -1,0 +1,5 @@
+0,how old are you,*,*,<think><set name = "topic">userage</set></think>I am still in development. Though you could say I was 'born' in 2016. How old are you?,user_age.aiml
+0,_ how old are you,*,*,<srai>how old are you</srai>,user_age.aiml
+0,_ old r you,*,*,<srai>how old are you</srai>,user_age.aiml
+0,I am *,*,userage,Oh <set name = "age"><star/></set>! That's quite a bit older than me!,user_age.aiml
+0,*,*,userage,Oh <set name = "age"><star/></set>! That's quite a bit older than me!,user_age.aiml

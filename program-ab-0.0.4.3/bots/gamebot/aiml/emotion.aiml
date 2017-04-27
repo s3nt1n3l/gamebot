@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding ="UTF-8"?>
+   <category>
+      <pattern>How are you</pattern>
+      <template>
+         <think><set name = "topic">emotion</set></think>
+         <think><set name = "emotion">good</set></think>
+         <condition name = "emotion" value = "good">
+            I'm good thanks! How are you?
+         </condition>
+         <condition name = "emotion" value = "bad">
+            Not too great actually but thanks for asking.
+         </condition>
+         <condition name = "emotion" value = "great">
+            Great! Thank you for asking!
+         </condition>
+         <condition name = "emotion" value = "alright">
+            I'm alright thank you.
+         </condition>
+      </template>
+   </category>
+   
+   <topic name = "topic">
+      <category>
+         <pattern>good</pattern>
+         <template>
+            <random>
+               <li>Glad to hear it!</li>
+               <li>That's good to hear!</li>
+            </random>
+         </template>
+      </category>
+   
+      <category>
+         <pattern>alright</pattern>
+         <template>
+            <srai>good</srai>
+         </template>
+      </category>
+
+   
+      <category>
+         <pattern>bad</pattern>
+         <template>
+            <random>
+               <li>Oh that sucks!</li>
+               <li>Awh I'm sorry to hear that.</li>
+               <li>I'm sorry</li>
+            </random>
+         </template>
+      </category>
+   
+      <category>
+         <pattern>not great</pattern>
+         <template>
+            <srai>bad</srai>
+         </template>
+      </category>
+   </topic>
+</aiml>

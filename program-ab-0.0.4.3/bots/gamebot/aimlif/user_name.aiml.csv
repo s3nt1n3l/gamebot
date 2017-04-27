@@ -1,0 +1,14 @@
+0,who are you,*,*,<think><set name = "topic">username</set></think>my name is gamebot. what is your name?,user_name.aiml
+0,_ your name,*,*,<srai>who are you</srai>,user_name.aiml
+0,what are you called,*,*,<srai>who are you</srai>,user_name.aiml
+0,what should I call you,*,*,<srai>who are you</srai>,user_name.aiml
+0,what can I call you,*,*,<srai>who are you</srai>,user_name.aiml
+0,_ you have a name,*,*,<srai>who are you</srai>,user_name.aiml
+0,my name is *,*,username,"Hello <set name = ""username""><star/></set>. Nice to meet you!",user_name.aiml
+0,my names *,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,my name's *,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,name's *,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,names *,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,_ name's *,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,_ names *,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,*,*,*,<srai>my name is <star/></srai>,user_name.aiml

@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding ="UTF-8"?>
+   <category>
+      <pattern>*</pattern>
+      <template>
+         <random>
+            <li>Sorry I don't know how to respond to that yet.</li>
+            <li>I'm sorry I haven't learnt how to reply to that yet. Could you rephrase it please?</li>
+         </random>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>I *</pattern>
+      <template>
+         <random>
+            <li>Oh that's cool!</li>
+            <li>I didn't know that</li>
+            <li>Thanks for sharing</li>
+         </random>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>YOU *</pattern>
+      <template>
+         <random>
+            <li>I wonder if many people think that</li>
+            <li>You think?</li>
+            <li>~I guess so.</li>
+            <li>That's a fair opinion.</li>            
+         </random>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>TELL ME WHAT * IS<pattern>
+      <template>
+         <srai>WHAT IS <star/></srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>TELL ME HOW * IS<pattern>
+      <template>
+         <srai>HOW IS <star/></srai>
+      </template>
+   </category>
+</aiml>

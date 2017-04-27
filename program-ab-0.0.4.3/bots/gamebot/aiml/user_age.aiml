@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding ="UTF-8"?>
+   <category>
+      <pattern>how old are you</pattern>
+      <template>
+         <think><set name = "topic">userage</set></think>
+         I am still in development. Though you could say I was 'born' in 2016. How old are you?
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ how old are you</pattern>
+      <template>
+         <srai>how old are you</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ old r you</pattern>
+      <template>
+         <srai>how old are you</srai>
+      </template>
+   </category>
+   
+   <topic name = "topic">
+      <category>
+         <pattern>I am *</pattern>
+         <that>I AM STILL IN DEVELOPMENT THOUGH YOU COULD SAY I WAS BORN IN 2016 HOW OLD ARE YOU</that> 
+         <template>
+            Oh <set name="age"><star/></set>! That's quite a bit older than me!
+         </template>
+      </category>
+      
+            <category>
+         <pattern>*</pattern>
+         <that>I AM STILL IN DEVELOPMENT THOUGH YOU COULD SAY I WAS BORN IN 2016 HOW OLD ARE YOU</that> 
+         <template>
+            Oh <set name="age"><star/></set>! That's quite a bit older than me!
+         </template>
+      </category>
+   </topic>
+</aiml>

@@ -1,0 +1,4 @@
+0,good bye,*,*,<random><li>good bye <get name = "username"/>!</li><li>see you later <get name = "username"/>!</li></random>,gamebot.aiml
+0,cya,*,*,<srai>GOOD BYE</srai>,gamebot.aiml
+0,bye,*,*,<srai>GOOD BYE</srai>,gamebot.aiml
+0,adios,*,*,<srai>GOOD BYE</srai>,gamebot.aiml
