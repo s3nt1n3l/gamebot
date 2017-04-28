@@ -40,25 +40,23 @@
    
       <category>
          <pattern>_ male</pattern>
-         <that>I AM A MACHINE I HAVE NO GENDER WHAT ABOUT YOU</that> 
          <template>
-            <think><set usergender="sex">male</set></think>That's cool. My creator is a male!
+            <srai>male</srai>
          </template>
-      </category>
-
-      <category>
-         <pattern>_ female</pattern>
-         <that>I AM A MACHINE I HAVE NO GENDER WHAT ABOUT YOU</that> 
-         <template>
-            <think><set usergender="sex">female</set></think>Oh that's cool! Don't get many women around here!
-         </template>
-      </category>
+      </category>      
       
             <category>
          <pattern>female</pattern>
          <that>I AM A MACHINE I HAVE NO GENDER WHAT ABOUT YOU</that> 
          <template>
             <think><set usergender="sex">female</set></think>Oh that's cool! Don't get many women around here!
+         </template>
+      </category>
+      
+      <category>
+         <pattern>_ female</pattern>
+         <template>
+            <srai>female</srai>
          </template>
       </category>
    </topic>

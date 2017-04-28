@@ -4,11 +4,10 @@
 0,what should I call you,*,*,<srai>who are you</srai>,user_name.aiml
 0,what can I call you,*,*,<srai>who are you</srai>,user_name.aiml
 0,_ you have a name,*,*,<srai>who are you</srai>,user_name.aiml
-0,my name is *,*,username,"Hello <set name = ""username""><star/></set>. Nice to meet you!",user_name.aiml
-0,my names *,*,*,<srai>my name is <star/></srai>,user_name.aiml
-0,my name's *,*,*,<srai>my name is <star/></srai>,user_name.aiml
-0,name's *,*,*,<srai>my name is <star/></srai>,user_name.aiml
-0,names *,*,*,<srai>my name is <star/></srai>,user_name.aiml
-0,_ name's *,*,*,<srai>my name is <star/></srai>,user_name.aiml
-0,_ names *,*,*,<srai>my name is <star/></srai>,user_name.aiml
-0,*,*,*,<srai>my name is <star/></srai>,user_name.aiml
+0,_ name is *,*,username,"Hello <set name = ""username""><star index = "2"/></set>. Nice to meet you!",user_name.aiml
+0,_ names *,*,*,<srai>_ name is <star index = "2"/></srai>,user_name.aiml
+0,_ name's *,*,*,<srai>_ name is <star index = "2"/></srai>,user_name.aiml
+0,name's *,*,*,<srai>_ name is <star/></srai>,user_name.aiml
+0,names *,*,*,<srai>_ name is <star/></srai>,user_name.aiml
+0,_ call me *,*,*,<srai>_ name is <star index = "2"/></srai>,user_name.aiml
+0,*,*,*,<srai>_ name is <star/></srai>,user_name.aiml

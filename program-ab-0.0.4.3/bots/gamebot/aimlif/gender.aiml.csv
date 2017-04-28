@@ -3,6 +3,6 @@
 0,_ your gender,*,*,<srai>what gender are you</srai>,gender.aiml
 0,_ your sex,*,*,<srai>what gender are you</srai>,gender.aiml
 0,_ male,*,gender,<think><set usergender="sex">male</set></think>That's cool. My creator is a male!,gender.aiml
-0,male,*,gender,<think><set usergender="sex">male</set></think>That's cool. My creator is a male!,gender.aiml
-0,_ female,*,gender,<think><set usergender="sex">female</set></think>Oh that's cool! Don't get many women around here!,gender.aiml
+0,male,*,gender,<srai>male</srai>,gender.aiml
 0,female,*,gender,<think><set usergender="sex">female</set></think>Oh that's cool! Don't get many women around here!,gender.aiml
+0,_ female,*,gender,<srai>female</srai>,gender.aiml

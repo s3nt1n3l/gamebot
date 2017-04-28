@@ -2,4 +2,6 @@
 0,_ how old are you,*,*,<srai>how old are you</srai>,user_age.aiml
 0,_ old r you,*,*,<srai>how old are you</srai>,user_age.aiml
 0,I am *,*,userage,Oh <set name = "age"><star/></set>! That's quite a bit older than me!,user_age.aiml
-0,*,*,userage,Oh <set name = "age"><star/></set>! That's quite a bit older than me!,user_age.aiml
+0,Im *,*,userage,<srai>I am <star/></srai>,user_age.aiml
+0,I'm *,*,userage,<srai>I am <star/></srai>,user_age.aiml
+0,*,*,userage,<srai>I am <star/></srai>,user_age.aiml

@@ -9,7 +9,7 @@
          </random>
       </template>
    </category>
-   
+
    <category>
       <pattern>I *</pattern>
       <template>
@@ -46,4 +46,12 @@
          <srai>HOW IS <star/></srai>
       </template>
    </category>
+   
+   <category>
+      <pattern>SAY *</pattern>
+      <template>
+         <star/>
+      </template>
+   </category>
+
 </aiml>

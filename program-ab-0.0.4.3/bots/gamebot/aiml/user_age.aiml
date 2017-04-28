@@ -31,11 +31,26 @@
          </template>
       </category>
       
-            <category>
+      <category>
+         <pattern>Im *</pattern>
+         <template>
+            <srai>I am <star/></srai>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>I'm *</pattern>
+         <that>I AM STILL IN DEVELOPMENT THOUGH YOU COULD SAY I WAS BORN IN 2016 HOW OLD ARE YOU</that> 
+         <template>
+            <srai>I am <star/></srai>
+         </template>
+      </category>
+      
+      <category>
          <pattern>*</pattern>
          <that>I AM STILL IN DEVELOPMENT THOUGH YOU COULD SAY I WAS BORN IN 2016 HOW OLD ARE YOU</that> 
          <template>
-            Oh <set name="age"><star/></set>! That's quite a bit older than me!
+            <srai>I am <star/></srai>
          </template>
       </category>
    </topic>

@@ -46,59 +46,52 @@
    
    <topic name = "username">
       <category>
-         <pattern>my name is *</pattern>
+         <pattern>_ name is *</pattern>
          <that>MY NAME IS GAMEBOOT WHAT IS YOUR NAME</that>
          <template>
-            Hello <set name = "username"><star/></set>. Nice to meet you!
+            Hello <set name = "username"><star index = "2"/></set>. Nice to meet you!
          </template>
       </category>
    
       <category>
-         <pattern>my names *</pattern>
+         <pattern>_ names *</pattern>
          <template>
-            <srai>my name is <star/></srai>
+            <srai>_ name is <star index = "2"/></srai>
          </template>
       </category>
    
       <category>
-         <pattern>my name's *</pattern>
+         <pattern>_ name's *</pattern>
          <template>
-            <srai>my name is <star/></srai>
+            <srai>_ name is <star index = "2"/></srai>
          </template>
       </category>
       
       <category>
          <pattern>name's *</pattern>
          <template>
-            <srai>my name is <star/></srai>
+            <srai>_ name is <star/></srai>
          </template>
       </category>
       
       <category>
          <pattern>names *</pattern>
          <template>
-            <srai>my name is <star/></srai>
+            <srai>_ name is <star/></srai>
          </template>
       </category>
       
       <category>
-         <pattern>_ names *</pattern>
+         <pattern>_ call me *</pattern>
          <template>
-            <srai>my name is <star/></srai>
-         </template>
-      </category>
-      
-      <category>
-         <pattern>_ name's *</pattern>
-         <template>
-            <srai>my name is <star/></srai>
+            <srai>_ name is <star index = "2"/></srai>
          </template>
       </category>
       
       <category>
          <pattern>*</pattern>
          <template>
-            <srai>my name is <star/></srai>
+            <srai>_ name is <star/></srai>
          </template>
       </category>
    </topic>
