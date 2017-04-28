@@ -1,0 +1,6 @@
+0,GAMES,*,*,<think><set name = "topic">games</set></think><random><li>Yes let's talk about games! What's your favourite genre?</li><li>I like games#comma what's your favourite genre?</li></random>,games.aiml
+0,_ GAMES,*,*,<srai>GAMES</srai>
+0,GAMES *,*,*,<srai>GAMES</srai>
+0,strategy,*,games,Oh strategy#comma nice!,games.aiml
+0,action,*,games,Oh action#comma nice!,games.aiml
+0,adventure,*,games,Oh adventure#comma nice!,games.aiml

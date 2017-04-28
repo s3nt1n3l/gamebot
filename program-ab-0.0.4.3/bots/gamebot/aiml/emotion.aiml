@@ -20,7 +20,7 @@
       </template>
    </category>
    
-   <topic name = "topic">
+   <topic name = "emotion">
       <category>
          <pattern>good</pattern>
          <template>

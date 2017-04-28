@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding ="UTF-8"?>
+   <category>
+      <pattern>GAMES</pattern>
+      <template>
+         <think><set name = "topic">games</set></think>
+         <random>
+            <li>Yes let's talk about games! What's your favourite genre?</li>
+            <li>I like games, what's you're favourite genre?</li>
+         </random>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ GAMES</pattern>
+      <srai>GAMES</srai>
+   </category>
+   
+   <category>
+      <pattern>GAMES *</pattern>
+      <srai>GAMES</srai>
+   </category>
+   
+   <topic name = "games">
+      <category>
+         <pattern>Strategy</pattern>
+         <template>Oh strategy, nice!</template>
+      </category>
+      
+      <category>
+         <pattern>Action</pattern>
+         <template>Oh action, nice!</template>
+      </category>
+      
+      <category>
+         <pattern>Adventure</pattern>
+         <template>Oh adventure, nice!</template>
+      </category>
+   </topic>
+</aiml>
