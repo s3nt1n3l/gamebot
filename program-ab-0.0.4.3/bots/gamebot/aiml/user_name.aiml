@@ -94,5 +94,12 @@
             <srai>_ name is <star/></srai>
          </template>
       </category>
+	  
+      <category>
+         <pattern>what is my name</pattern>
+         <template>
+            Your name is <get name = "username"/>.
+         </template>
+      </category>
    </topic>
 </aiml>

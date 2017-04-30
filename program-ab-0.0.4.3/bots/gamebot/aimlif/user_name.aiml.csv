@@ -11,3 +11,5 @@
 0,names *,*,*,<srai>_ name is <star/></srai>,user_name.aiml
 0,_ call me *,*,*,<srai>_ name is <star index = "2"/></srai>,user_name.aiml
 0,*,*,*,<srai>_ name is <star/></srai>,user_name.aiml
+0,what is my name,*,*,Your name is <get name = "username"/>.,user_name.aiml
+
