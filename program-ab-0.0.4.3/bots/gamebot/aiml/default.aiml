@@ -3,6 +3,7 @@
    <category>
       <pattern>*</pattern>
       <template>
+         <think><set name = "topic">*</set></think>
          <random>
             <li>Sorry I don't know how to respond to that yet.</li>
             <li>I'm sorry I haven't learnt how to reply to that yet. Could you rephrase it please?</li>
@@ -13,6 +14,7 @@
    <category>
       <pattern>I *</pattern>
       <template>
+         <think><set name = "topic">*</set></think>
          <random>
             <li>Oh that's cool!</li>
             <li>I didn't know that</li>
@@ -24,6 +26,7 @@
    <category>
       <pattern>YOU *</pattern>
       <template>
+         <think><set name = "topic">*</set></think>
          <random>
             <li>I wonder if many people think that</li>
             <li>You think?</li>

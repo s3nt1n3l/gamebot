@@ -28,6 +28,7 @@
          <that>I AM STILL IN DEVELOPMENT THOUGH YOU COULD SAY I WAS BORN IN 2016 HOW OLD ARE YOU</that> 
          <template>
             Oh <set name="age"><star/></set>! That's quite a bit older than me!
+            <think><set name = "topic">*</set></think>
          </template>
       </category>
       

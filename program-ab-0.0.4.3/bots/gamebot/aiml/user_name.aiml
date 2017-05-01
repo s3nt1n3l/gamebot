@@ -50,6 +50,7 @@
          <that>MY NAME IS GAMEBOOT WHAT IS YOUR NAME</that>
          <template>
             Hello <set name = "username"><star index = "2"/></set>. Nice to meet you!
+            <think><set name = "topic">*</set></think>
          </template>
       </category>
    
