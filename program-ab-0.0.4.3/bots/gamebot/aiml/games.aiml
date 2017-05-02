@@ -23,18 +23,28 @@
    
    <topic name = "games">
       <category>
-         <pattern>Strategy</pattern>
+         <pattern>STRATEGY</pattern>
          <template>Oh strategy, nice!</template>
       </category>
       
       <category>
-         <pattern>Action</pattern>
+         <pattern>ACTION</pattern>
          <template>Oh action, nice!</template>
       </category>
       
       <category>
-         <pattern>Adventure</pattern>
+         <pattern>ADVENTURE</pattern>
          <template>Oh adventure, nice!</template>
+      </category>
+      
+      <category>
+         <pattern>FIRST PERSON SHOOTER</pattern>
+         <template>Oh FPS, nice!</template>
+      </category>
+      
+      <category>
+         <pattern>FPS</pattern>
+         <srai>FIRST PERSON SHOOTER</srai>
       </category>
    </topic>
 </aiml>
