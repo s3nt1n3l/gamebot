@@ -52,12 +52,14 @@
             <srai>I am <star/></srai>
          </template>
       </category>
-      
+   </topic>
       <category>
          <pattern>How old am I</pattern>
          <template>
-            You are <get name = "age"/> years old.
+            <condition name = "age">
+               <li value = "*">You are <get name = "age"/> years old.</li>
+               <li>I don't know. You haven't told me yet.</li>
+            </condition>
          </template>
       </category>
-   </topic>
 </aiml>

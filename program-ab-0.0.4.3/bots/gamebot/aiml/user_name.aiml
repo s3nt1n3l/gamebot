@@ -95,12 +95,16 @@
             <srai>_ name is <star/></srai>
          </template>
       </category>
-	  
+      
+   </topic>
+   
       <category>
          <pattern>what is my name</pattern>
          <template>
-            Your name is <get name = "username"/>.
+            <condition name = "username">
+               <li value = "*">Your name is <get name = "username"/>.</li>
+               <li>I don't know. you haven't told me yet.</li>
+            </condition>
          </template>
       </category>
-   </topic>
 </aiml>

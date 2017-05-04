@@ -1,0 +1,8 @@
+0,GRAND THEFT AUTO 5,*,adventure,Oh yeah! I've heard good things! Do you own that game?,adventure.aiml
+0,*,*,adventure,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">Would you like to buy it?</li><li>Pardon?</li></condition>,adventure.aiml
+0,YES,WOULD YOU LIKE TO BUY IT,adventure,Here is a link to purchase it: http://amzn.to/2oY7Tv4<think><set name = "topic">*</set></think>,adventure.aiml
+0,NO,WOULD YOU LIKE TO BUY IT,adventure,That's fair enough.<think><set name = "topic">*</set></think>,adventure.aiml
+0,RISE OF THE TOMB RAIDER,*,adventure,Oh nice! I've heard good things! Do you own that game?,adventure.aiml
+0,*,*,adventure,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">are you going to buy it?</li><li>Pardon?</li></condition>,adventure.aiml
+0,YES,ARE YOU GOING TO BUY IT,adventure,Here is a link to purchase it: http://amzn.to/2oY9uRK<think><set name = "topic">*</set></think>,adventure.aiml
+0,NO,ARE YOU GOING TO BUY IT,adventure,That's fair enough.<think><set name = "topic">*</set></think>,adventure.aiml

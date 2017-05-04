@@ -1,0 +1,8 @@
+0,CALL OF DUTY INFINITE WARFARE,*,fps,Oh yeah! I've heard good things! Do you own that game?,fps.aiml
+0,*,*,fps,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">Would you like to buy it?</li><li>Pardon?</li></condition>,fps.aiml
+0,YES,WOULD YOU LIKE TO BUY IT,fps,Here is a link to purchase it: http://amzn.to/2p931iY<think><set name = "topic">*</set></think>,fps.aiml
+0,NO,WOULD YOU LIKE TO BUY IT,fps,That's fair enough.<think><set name = "topic">*</set></think>,fps.aiml
+0,OVERWATCH,*,fps,Oh nice! I've heard good things! Do you own that game?,fps.aiml
+0,*,*,fps,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">are you going to buy it?</li><li>Pardon?</li></condition>,fps.aiml
+0,YES,ARE YOU GOING TO BUY IT,fps,Here is a link to purchase it: http://amzn.to/2pG64QD<think><set name = "topic">*</set></think>,fps.aiml
+0,NO,ARE YOU GOING TO BUY IT,fps,That's fair enough.<think><set name = "topic">*</set></think>,fps.aiml

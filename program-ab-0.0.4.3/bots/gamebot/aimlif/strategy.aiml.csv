@@ -1,0 +1,8 @@
+0,DAWN OF WAR 3,*,strategy,Oh yeah! I've heard good things! Do you own that game?,strategy.aiml
+0,*,*,strategy,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">Would you like to buy it?</li><li>Pardon?</li></condition>,strategy.aiml
+0,YES,WOULD YOU LIKE TO BUY IT,strategy,Here is a link to purchase it: http://amzn.to/2pFnHQs<think><set name = "topic">*</set></think>,strategy.aiml
+0,NO,WOULD YOU LIKE TO BUY IT,strategy,That's fair enough.<think><set name = "topic">*</set></think>,strategy.aiml
+0,CIVILIZATION 6,*,strategy,Oh nice! I've heard good things! Do you own that game?,strategy.aiml
+0,*,*,strategy,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">are you going to buy it?</li><li>Pardon?</li></condition>,strategy.aiml
+0,YES,ARE YOU GOING TO BUY IT,strategy,Here is a link to purchase it: http://amzn.to/2p9lDz6<think><set name = "topic">*</set></think>,strategy.aiml
+0,NO,ARE YOU GOING TO BUY IT,strategy,That's fair enough.<think><set name = "topic">*</set></think>,strategy.aiml

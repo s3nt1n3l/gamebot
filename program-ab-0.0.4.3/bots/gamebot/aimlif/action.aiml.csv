@@ -1,0 +1,8 @@
+0,DISHONORED 2,*,action,Oh yeah! I've heard good things! Do you own that game?,action.aiml
+0,*,*,action,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">Would you like to buy it?</li><li>Pardon?</li></condition>,action.aiml
+0,YES,WOULD YOU LIKE TO BUY IT,action,Here is a link to purchase it: http://amzn.to/2p9jgg3<think><set name = "topic">*</set></think>,action.aiml
+0,NO,WOULD YOU LIKE TO BUY IT,action,That's fair enough.<think><set name = "topic">*</set></think>,action.aiml
+0,FOR HONOR,*,action,Oh nice! I've heard good things! Do you own that game?,action.aiml
+0,*,*,action,<think><set name = "owned"><star/></set></think><condition name = "owned"><li value = "yes">That's great!<think><set name = "topic">*</set></think></li><li value = "no">are you going to buy it?</li><li>Pardon?</li></condition>,action.aiml
+0,YES,ARE YOU GOING TO BUY IT,action,Here is a link to purchase it: http://amzn.to/2p92DB7<think><set name = "topic">*</set></think>,action.aiml
+0,NO,ARE YOU GOING TO BUY IT,action,That's fair enough.<think><set name = "topic">*</set></think>,action.aiml

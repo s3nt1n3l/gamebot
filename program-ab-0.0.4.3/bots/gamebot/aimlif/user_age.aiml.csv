@@ -5,4 +5,4 @@
 0,Im *,*,userage,<srai>I am <star/></srai>,user_age.aiml
 0,I'm *,*,userage,<srai>I am <star/></srai>,user_age.aiml
 0,*,*,userage,<srai>I am <star/></srai>,user_age.aiml
-0,how old am i,*,*,You are <get name = "age"/> years old.,user_age.aiml
+0,how old am i,*,*,<condition name = "age"><li value = "*">You are <get name = "age"/> years old.</li><li>I don't know. You haven't told me yet.</li></condition>,user_age.aiml

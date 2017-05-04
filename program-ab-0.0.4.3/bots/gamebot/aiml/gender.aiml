@@ -34,7 +34,7 @@
          <pattern>male</pattern>
          <that>I AM A MACHINE I HAVE NO GENDER WHAT ABOUT YOU</that> 
          <template>
-            <think><set usergender="sex">male</set></think>That's cool. My creator is a male!
+            <think><set name="sex">male</set></think>That's cool. My creator is a male!
          </template>
       </category>
    
@@ -49,7 +49,7 @@
          <pattern>female</pattern>
          <that>I AM A MACHINE I HAVE NO GENDER WHAT ABOUT YOU</that> 
          <template>
-            <think><set usergender="sex">female</set></think>Oh that's cool! Don't get many women around here!
+            <think><set name="sex">female</set></think>Oh that's cool! Don't get many women around here!
          </template>
       </category>
       
@@ -60,4 +60,15 @@
          </template>
       </category>
    </topic>
+   
+      <category>
+         <pattern>WHAT IS MY GENDER</pattern>
+         <template>
+            <condition name = "sex">
+               <li value = "*">You are <get name = "sex"/>.</li>
+               <li>I don't know. You've not told me yet.</li>
+            </condition>
+         </template>
+      </category>
+
 </aiml>

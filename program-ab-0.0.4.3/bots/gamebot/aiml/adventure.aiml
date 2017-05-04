@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding ="UTF-8"?>
+   <topic name = "adventure">
+      <category>
+         <pattern>GRAND THEFT AUTO 5</pattern>
+         <template>Oh yeah! I've heard good things! Do you own that game?</template>
+      </category>
+      
+      <category>
+         <pattern>*</pattern>
+         <template>
+         <that>OH YEAH IVE HEARD GOOD THINGS DO YOU OWN THAT GAME</that>
+            <think><set name = "owned"><star/></set></think>
+            <condition name = "owned">
+               <li value = "yes">That's great!<think><set name = "topic">*</set></think></li>
+               <li value = "no">Would you like to buy it?</li>
+               <li>Pardon?</li>
+            </condition>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>YES</pattern>
+         <that>WOULD YOU LIKE TO BUY IT</that>
+         <template>
+            Here is a link to purchase it: http://amzn.to/2oY7Tv4
+            <think><set name = "topic">*</set></think>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>NO</pattern>
+         <that>WOULD YOU LIKE TO BUY IT</that>
+         <template>
+            That's fair enough.
+            <think><set name = "topic">*</set></think>
+         </template>
+      </category>
+      
+            <category>
+         <pattern>RISE OF THE TOMB RAIDER</pattern>
+         <template>Oh nice! I've heard good things! Do you own that game?</template>
+      </category>
+      
+      <category>
+         <pattern>*</pattern>
+         <template>
+            <that>OH NICE IVE HEARD GOOD THINGS DO YOU OWN THAT GAME</that>
+            <think><set name = "owned"><star/></set></think>
+            <condition name = "owned">
+               <li value = "yes">That's great!<think><set name = "topic">*</set></think></li>
+               <li value = "no">Are you going to buy it?</li>
+               <li>Pardon?</li>
+            </condition>
+         </template>
+      </category>
+      <category>
+         <pattern>YES</pattern>
+         <that>ARE YOU GOING TO BUY IT</that>
+         <template>
+            Here is a link to purchase it: http://amzn.to/2oY9uRK
+            <think><set name = "topic">*</set></think>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>NO</pattern>
+         <that>ARE YOU GOING TO BUY IT</that>
+         <template>
+            That's fair enough.
+            <think><set name = "topic">*</set></think>
+         </template>
+      </category>
+   </topic>
+</aiml>

@@ -1,8 +1,8 @@
-0,GAMES,*,*,<think><set name = "topic">games</set></think><random><li>Yes let's talk about games! What's your favourite genre?</li><li>I like games#comma what's your favourite genre?</li></random>,games.aiml
+0,GAMES,*,*,<think><set name = "topic">games</set></think><random><li>Yes let's talk about games! What's your favourite genre?</li><li>I like games. What's your favourite genre?</li></random>,games.aiml
 0,_ GAMES,*,*,<srai>GAMES</srai>,games.aiml
 0,GAMES *,*,*,<srai>GAMES</srai>,games.aiml
-0,strategy,*,games,Oh strategy#comma nice!,games.aiml
-0,action,*,games,Oh action#comma nice!,games.aiml
-0,adventure,*,games,Oh adventure#comma nice!,games.aiml
-0,FIRST PERSON SHOOTER,*,games,Oh FPS#comma nice!,games.aiml
+0,strategy,*,games,<think><set name = "topic">strategy</set></think>Oh strategy. Nice! What's your favourite strategy game?,games.aiml
+0,action,*,games,<think><set name = "topic">action</set></think>Oh action. Nice! What's your favourite action game?,games.aiml
+0,adventure,*,games,<think><set name = "topic">adventure</set></think>Oh adventure. Nice! What's your favourite adventure game?,games.aiml
+0,FIRST PERSON SHOOTER,*,games,<think><set name = "topic">fps</set></think>Oh First Person Shooter. Nice! What's your favourite fps game?,games.aiml
 0,FPS,*,games,<srai>FIRST PERSON SHOOTER</srai>,games.aiml

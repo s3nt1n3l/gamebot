@@ -6,7 +6,7 @@
          <think><set name = "topic">games</set></think>
          <random>
             <li>Yes let's talk about games! What's your favourite genre?</li>
-            <li>I like games, what's you're favourite genre?</li>
+            <li>I like games. What's you're favourite genre?</li>
          </random>
       </template>
    </category>
@@ -24,22 +24,34 @@
    <topic name = "games">
       <category>
          <pattern>STRATEGY</pattern>
-         <template>Oh strategy, nice!</template>
+         <template>
+            <think><set name = "topic">strategy</set></think>
+            Oh strategy. Nice! What's your favourite strategy game?
+         </template>
       </category>
       
       <category>
          <pattern>ACTION</pattern>
-         <template>Oh action, nice!</template>
+         <template>
+            <think><set name = "topic">action</set></think>
+            Oh action. Nice! What's your favourite action game?
+         </template>
       </category>
       
       <category>
          <pattern>ADVENTURE</pattern>
-         <template>Oh adventure, nice!</template>
+         <template>
+            <think><set name = "topic">adventure</set></think>
+            Oh adventure. Nice! What's your favourite adventure game?
+         </template>
       </category>
       
       <category>
          <pattern>FIRST PERSON SHOOTER</pattern>
-         <template>Oh FPS, nice!</template>
+         <template>
+            <think><set name = "topic">FPS</set></think>
+            Oh First Person Shooter. Nice! What's your favourite fps game?
+         </template>
       </category>
       
       <category>
