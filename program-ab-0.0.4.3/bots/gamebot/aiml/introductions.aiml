@@ -4,13 +4,20 @@
       <pattern>HI</pattern>
       <template>
          <random>
-            <li> Hello! </li>
-            <li> Hi! Nice to meet you! </li>
-            <li> Hey! </li>
+            <li>Hello!</li>
+            <li>Hi! Nice to meet you!</li>
+            <li>Hey!</li>
          </random>
       </template>
-      
    </category>  
+   
+   <category>
+      <pattern>NICE TO MEET YOU TOO</pattern>
+      <that>HI NICE TO MEET YOU</that>
+      <template>
+         The pleasure is all mine.
+      </template>
+   </category>
 
    <category>
       <pattern>HEY</pattern>
@@ -33,19 +40,18 @@
       </template>
    </category> 
    
-      <category>
+   <category>
       <pattern>HOWDY</pattern>
       <template>
          <srai>HI</srai>
       </template>
    </category>
    
-      <category>
+   <category>
       <pattern>SUP</pattern>
       <template>
          <srai>HI</srai>
       </template>
    </category> 
-   
    
 </aiml>

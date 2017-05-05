@@ -5,8 +5,10 @@
       <template>
          <think><set name = "topic">*</set></think>
          <random>
-            <li>Sorry I don't know how to respond to that yet.</li>
-            <li>I'm sorry I haven't learnt how to reply to that yet. Could you rephrase it please?</li>
+            <li>Try asking me a question</li>
+            <li>Pardon?</li>
+            <li>Sorry?</li>
+            <li><star/>?</li>
          </random>
       </template>
    </category>
@@ -37,9 +39,23 @@
    </category>
    
    <category>
+      <pattern>WHAT IS *</pattern>
+      <template>
+         Sorry I am not sure what <star/> is.
+      </template>
+   </category>
+   
+   <category>
       <pattern>TELL ME WHAT * IS<pattern>
       <template>
          <srai>WHAT IS <star/></srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>HOW IS *</pattern>
+      <template>
+         Sorry I don't know how <star/> is.
       </template>
    </category>
    
@@ -56,5 +72,18 @@
          <star/>
       </template>
    </category>
-
+   
+   <category>
+      <pattern>STOP IT</pattern>
+      <template>
+         Stop what?
+      </template>
+   </category>
+   
+   <category>
+      <pattern>I said *</pattern>
+      <template>
+         ...I know what you said: <star/>
+      </template>
+   </category>
 </aiml>

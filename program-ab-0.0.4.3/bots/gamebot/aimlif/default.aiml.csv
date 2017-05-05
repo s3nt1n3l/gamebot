@@ -1,6 +1,10 @@
-0,*,*,*,<think><set name = "topic">*</set></think><random><li>Sorry I don't know how to respond to that yet.</li><li>I'm sorry I haven't learn how to reply to that yet. Could you rephrase it please?</li></random>,default.aiml
+0,*,*,*,<think><set name = "topic">*</set></think><random><li>Try asking me a question</li><li>Pardon?</li><li>Sorry?</li><li><star/>?</li></random>,default.aiml
 0,I *,*,*,<think><set name = "topic">*</set></think><random><li>oh that's cool!</li><li>I didn't know that</li><li>Thanks for sharing</li></random>,default.aiml
 0,You *,*,*,<think><set name = "topic">*</set></think><random><li>I wonder if many people think that</li><li>you think?</li><li>You think?</li><li>I guess so.</li><li>That's a fair opinion</li></random>,default.aiml
+0,WHAT IS *,*,*,Sorry I am not sure what <star/> is.,default.aiml
 0,TELL ME WHAT * IS,*,*,<srai>what is <star/></srai>,default.aiml
+0,HOW IS *,*,*,Sorry I don't know how <star/> is.,default.aiml
 0,TELL ME HOW * IS,*,*,<srai>how is <star/></srai>,default.aiml
 0,SAY *,*,*,<star/>,default.aiml
+0,STOP IT,*,*,Stop what?,default.aiml
+0,I SAID *,*,*,...I know what you said: <star/>,default.aiml
